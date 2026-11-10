@@ -57,7 +57,7 @@ log = logging.getLogger("jarvis")
 
 # =====================  SETTINGS (edit these)  =====================
 WAKE_WORDS = ("jarvis", "jarvish", "travis")   # mic sometimes mishears the name
-REQUIRE_WAKE_WORD = True        # False = no need to say "Jarvis" (reacts to any talking)
+REQUIRE_WAKE_WORD = False       # False = no need to say "Jarvis" (reacts to any talking)
 DEFAULT_BROWSER = "brave"       # brave / chrome / edge
 LANGUAGE = "en-IN"              # understands Indian English + Hinglish best
 
